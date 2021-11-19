@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--
+Tomo de ejemplo el ejercicio de la clase anterior y lo voy a crear en dos archivos.
+Un archivo contiene el form y el otro mi contenido php -> lo llamaré calculadora.
+
+Cuando el usuario pulsa el botón de enviar llama a mi archivo PHP y con las varibles superglobales consigo almacenar lo que el susario intruduce en num1 y num2 y luego llama la funcion calcular.
+Debo tener en cuenta el ámbito de las variables.
+PASO DE PARAMETROS: -> a la funcion le doy parametros (dentro del paréntesis)
+
+-->
+    <form name="form1" method="post" action="12-2calculadora.php">
+        <p>
+            <label for="num1"></label>
+            <input type="text" name="num1" id="num1">
+            <label for="num2"></label>
+            <input type="text" name="num2" id="num2">
+            <label for="operation"></label>
+            <select name="operation" id="operation">
+                <option value="Suma">Suma</option>
+                <option value="Resta">Resta</option>
+                <option value="Multiplicacion">Multiplicación</option>
+                <option value="Division">División</option>
+                <option value="Modulo">Módulo</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" name="button" id="button" value="Enviar" onclick="prueba">
+        </p>
+    </form>
+</body>
+</html>
+
+
