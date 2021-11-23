@@ -5,33 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        h1{
-            text-align:center;
-        }
-        #datos_usuario {
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        input {
-            width: 80%;
-            height: 30px;
-            margin: 0.5rem;
-        }
-
-        button {
-            padding: 10px 10px;
-            border: 2mm;
-            background: rgb(100, 200, 255);
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
 <h1>FUNCIONES - PARAMETROS POR VALOR Y POR REFERENCIA</h1>
